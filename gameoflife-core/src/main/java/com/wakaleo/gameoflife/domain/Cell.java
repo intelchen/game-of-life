@@ -14,6 +14,7 @@ public enum Cell {
         return symbol;
     }
 
+    
     static Cell fromSymbol(String symbol) {
         Cell cellRepresentedBySymbol = null;
         for (Cell cell : Cell.values()) {
@@ -25,6 +26,9 @@ public enum Cell {
         return cellRepresentedBySymbol;
     }
 
+    /**
+      *get symbol
+      */
     public String getSymbol() {
         return symbol;
     }
